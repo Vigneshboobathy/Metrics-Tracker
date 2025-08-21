@@ -7,20 +7,29 @@ import (
 	"metrics/logger"
 )
 
-var txCount int64
-
-func IncrementTPS() {
-	atomic.AddInt64(&txCount, 1)
-}
+var (
+	txCount   int64
+	tpsTicker *time.Ticker
+	stopTPS   chan struct{}
+)
 
 // StartTPSLogger logs TPS every second
 func StartTPSLogger() {
-	ticker := time.NewTicker(1 * time.Second)
+	if tpsTicker != nil {
+		return
+	}
+	tpsTicker = time.NewTicker(1 * time.Second)
+	stopTPS = make(chan struct{})
 	go func() {
-		for range ticker.C {
-			count := atomic.SwapInt64(&txCount, 0)
-			if count > 0 {
+		for {
+			select {
+			case <-tpsTicker.C:
+				count := atomic.SwapInt64(&txCount, 0)
 				logger.Metrics.Printf("TPS = %d", count)
+			case <-stopTPS:
+				tpsTicker.Stop()
+				tpsTicker = nil
+				return
 			}
 		}
 	}()
@@ -30,9 +39,3 @@ func StartTPSLogger() {
 func LogLatency(method string, duration time.Duration) {
 	logger.Metrics.Printf("Latency for %s = %v", method, duration)
 }
-
-// LogFinality logs finality time for a tx
-func LogFinality(txID string, duration time.Duration) {
-	logger.Metrics.Printf("Time to finality for %s = %v", txID, duration)
-}
-

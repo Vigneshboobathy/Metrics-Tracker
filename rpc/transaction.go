@@ -142,29 +142,29 @@ func GetTransactionDetails(node model.NodeInfo, txID string) (model.TransactionR
 
 // TransferFund
 func TransferFund(node model.NodeInfo, receiver string, value int, nonce int) (string, error) {
-	req := model.RequestToRPC{
-		JSONRPC: "2.0",
-		ID:      1,
-		Method:  "xygle_transferFund",
-		Params: map[string]interface{}{
-			"receiver": receiver,
-			"value":    value,
-			"nonce":    nonce,
-		},
-	}
-
-	rpcResp, err := SendRequestToRPC(node.URL, req)
-	if err != nil {
-		return "", err
-	}
-
-	var result struct {
-		Status        string `json:"status"`
-		TransactionID string `json:"transaction_id"`
-	}
-	if err := json.Unmarshal(rpcResp.Result, &result); err != nil {
-		return "", fmt.Errorf("failed to unmarshal transfer response: %v", err)
-	}
-
-	return result.TransactionID, nil
+    req := model.RequestToRPC{
+        JSONRPC: "2.0",
+        ID:      1,
+        Method:  "xygle_transferFund",
+        Params: map[string]interface{}{
+            "receiver": receiver,
+            "value":    value,
+            "nonce":    nonce,
+        },
+    }
+ 
+    rpcResp, err := SendRequestToRPC(node.URL, req)
+    if err != nil {
+        return "", err
+    }
+ 
+    var result struct {
+        Status        string `json:"status"`
+        TransactionID string `json:"transaction_id"`
+    }
+    if err := json.Unmarshal(rpcResp.Result, &result); err != nil {
+        return "", fmt.Errorf("failed to unmarshal transfer response: %v", err)
+    }
+ 
+    return result.TransactionID, nil
 }

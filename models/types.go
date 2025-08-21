@@ -30,7 +30,6 @@ type ResponseFromRPC struct {
 
 // GetTransactionResult represents a result of a transaction
 type TransactionResult struct {
-	ID        string `json:"id"`
-	IsFinal   bool   `json:"is_final"`
-	Timestamp int64  `json:"timestamp"`
+    TransactionID string  `json:"transaction_id"`
+    Status        string  `json:"status"`
 }
