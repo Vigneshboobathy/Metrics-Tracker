@@ -8,7 +8,6 @@ type NodeInfo struct {
 	Address  string `json:"address"`
 }
 
-// RPCRequest represents a request to the RPC server
 type RequestToRPC struct {
 	JSONRPC string      `json:"jsonrpc"`
 	Method  string      `json:"method"`
@@ -16,7 +15,6 @@ type RequestToRPC struct {
 	ID      int         `json:"id"`
 }
 
-// RPCResponse represents a response from the RPC server
 type ResponseFromRPC struct {
 	JSONRPC string          `json:"jsonrpc"`
 	ID      int             `json:"id"`
@@ -28,8 +26,16 @@ type ResponseFromRPC struct {
 	} `json:"error"`
 }
 
-// GetTransactionResult represents a result of a transaction
 type TransactionResult struct {
-    TransactionID string  `json:"transaction_id"`
-    Status        string  `json:"status"`
+	ID                 string `json:"id"`
+	TransactionID      string `json:"transaction_id,omitempty"` 
+	Sender             string `json:"sender,omitempty"`
+	Receiver           string `json:"receiver,omitempty"`
+	Value              int64  `json:"value,omitempty"`
+	Nonce              uint64 `json:"nonce,omitempty"`
+	Timestamp          int64  `json:"timestamp,omitempty"`            
+	ExecutionStatus    string `json:"execution_status,omitempty"`    
+	ExecutionResult    string `json:"execution_result,omitempty"`
+	ExecutionTimestamp int64  `json:"execution_timestamp,omitempty"`  
+	IsFinal            bool   `json:"is_final,omitempty"`
 }

@@ -1,44 +1,113 @@
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getTransaction = 83.6186ms
-METRIC: 2025/08/21 13:48:49 txDetail: {TransactionID: Status:}
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getBalance = 39.5138ms
-METRIC: 2025/08/21 13:48:49 Balance: map[address:38fa5e14098da08f0f241df3539cc6ee3a6f29d3 balance:100140]
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getAllTransactions = 43.9527ms
-METRIC: 2025/08/21 13:48:49 fetched all transcations total =143 page=1
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getAccountTransactions = 41.2601ms
-METRIC: 2025/08/21 13:48:49 Account Transactions: map[has_more:true items:[map[ExecutedBy:<nil> ExecutionTime:1970-01-01T00:00:00Z ValidatorTx:map[LightLeaderProof:map[ProofData:<nil> Signature:hhNqyuTfiPujmNu4hKZYbtjo5P1sJ+2xsqlRWt7hdJ/w3AwiTCr80NYvTrfGg+SL9uGhIJYECPW/LcVioLTWAg== TransactionID:/Wt1F8h5nHjM6LCKdmwwemYYoIMLWy8PCEzeCCCX34s=] SignedTx:map[Base:map[Data:<nil> Fees:map[GasLimit:0] Nonce:93 ReceiverAddress:MzQxODczNDZhYTg2YzU3MjBhNGQ3YjQ3N2U2MDA2MGE4ZmFkZWIxNA== SenderAddress:NmZlOTI3ZTRmOTk3NzdiOGRjMTUyOTYzMzA2YTBiNzllMjBkZmRjYg== Timestamp:2025-08-21T06:21:48.662396876Z TransferData:<nil> TxType:1 Value:10 Version:1] PublicKey:F+HKxWdOSvWYRnZICO7Eg45Q32i8/ZL/Yp73w0Kg34s= Signature:hhNqyuTfiPujmNu4hKZYbtjo5P1sJ+2xsqlRWt7hdJ/w3AwiTCr80NYvTrfGg+SL9uGhIJYECPW/LcVioLTWAg== SignatureScheme:ed25519 TransactionID:/Wt1F8h5nHjM6LCKdmwwemYYoIMLWy8PCEzeCCCX34s=] ValidatorProof:<nil>]]] page:1 page_size:1 total:128]
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getStats = 41.9338ms
-METRIC: 2025/08/21 13:48:49 Node Stats: map[lightNodes:<nil> neighbours:[map[Addresses:[172.20.0.24:52954] Attributes:map[] Connected:2025-08-19T14:05:07.000946852Z Direction:1 ID:38fa5e14098da08f0f241df3539cc6ee3a6f29d3 LastSeen:2025-08-19T14:05:07.000946852Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.4:53440] Attributes:map[] Connected:2025-08-19T14:05:01.669328957Z Direction:1 ID:215d4165ceb24037b5ca362abb1a6e6175aac0e8 LastSeen:2025-08-19T14:05:01.669328957Z Latency:0 Protocols:[xygle] Type:validator UserAgent:Xygle/1.0] map[Addresses:[172.20.0.15:51496] Attributes:map[] Connected:2025-08-19T14:05:04.316542729Z Direction:1 ID:14ddaeec0bde31315db268f2bdb274468ce4aaae LastSeen:2025-08-19T14:05:04.316542729Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.21:58944] Attributes:map[] Connected:2025-08-19T14:05:05.497321361Z Direction:1 ID:801a130f5a56bb4df52c4a354aa84941ee3eb4e2 LastSeen:2025-08-19T14:05:05.497321361Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.3:43356] Attributes:map[] Connected:2025-08-19T14:05:01.187296019Z Direction:1 ID:7df8a751d6fd9bd7fa2e42a72a7b5b91723b4e13 LastSeen:2025-08-19T14:05:01.187296019Z Latency:0 Protocols:[xygle] Type:validator UserAgent:Xygle/1.0] map[Addresses:[172.20.0.14:34054] Attributes:map[] Connected:2025-08-19T14:05:01.2828006Z Direction:1 ID:34187346aa86c5720a4d7b477e60060a8fadeb14 LastSeen:2025-08-19T14:05:01.2828006Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.9:45836] Attributes:map[] Connected:2025-08-19T14:05:03.319482427Z Direction:1 ID:9371cbd1ffe7ef227ef2820bf39f822a7535b0ef LastSeen:2025-08-19T14:05:03.319482427Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.11:56346] Attributes:map[] Connected:2025-08-19T14:05:03.533110504Z Direction:1 ID:b15c3e432a53dfe0f1ccbcca05cb6221e01030d4 LastSeen:2025-08-19T14:05:03.533110504Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.12:57290] Attributes:map[] Connected:2025-08-19T14:05:03.696522648Z Direction:1 ID:9bb81cf351bb9db473e2017723e49c1ae444c644 LastSeen:2025-08-19T14:05:03.696522648Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.17:51984] Attributes:map[] Connected:2025-08-19T14:05:04.58626125Z Direction:1 ID:41657846e9af50a06bb11cbbfe332ab5bb97ab8a LastSeen:2025-08-19T14:05:04.58626125Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.22:51036] Attributes:map[] Connected:2025-08-19T14:05:05.53632132Z Direction:1 ID:5e95f89b80724924e4bf3eb82c8f5c4ea950465b LastSeen:2025-08-19T14:05:05.53632132Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.23:56816] Attributes:map[] Connected:2025-08-19T14:05:05.72424707Z Direction:1 ID:46be714bb1393a662a1bc44931d059e3747a1cb2 LastSeen:2025-08-19T14:05:05.72424707Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.5:40690] Attributes:map[] Connected:2025-08-19T14:05:02.480530465Z Direction:1 ID:aef3c247301a37f22d6d3e2070b248e9ad9484f6 LastSeen:2025-08-19T14:05:02.480530465Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.6:56762] Attributes:map[] Connected:2025-08-19T14:05:02.722998458Z Direction:1 ID:2a5d600f866380d2e34c47c8dcfd37f2493f19cc LastSeen:2025-08-19T14:05:02.722998458Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.7:43484] Attributes:map[] Connected:2025-08-19T14:05:03.055026821Z Direction:1 ID:57faa3141e4b4454a3590ac02f5fce422004c65a LastSeen:2025-08-19T14:05:03.055026821Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.13:42478] Attributes:map[] Connected:2025-08-19T14:05:03.928500432Z Direction:1 ID:db7e18ca75857f6a869e21b2f566d3ee54f9b704 LastSeen:2025-08-19T14:05:03.928500432Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.18:40308] Attributes:map[] Connected:2025-08-19T14:05:04.73690852Z Direction:1 ID:af499cab621cd535456468683997eb5e1ea8b06a LastSeen:2025-08-19T14:05:04.73690852Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.19:42768] Attributes:map[] Connected:2025-08-19T14:05:04.966405411Z Direction:1 ID:c304dcc153736df3bb595923b2a5c5e320fbadc9 LastSeen:2025-08-19T14:05:04.966405411Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.20:41084] Attributes:map[] Connected:2025-08-19T14:05:05.185891279Z Direction:1 ID:9229de7017bb1ee6190e9ddaeb95ad43ccff97da LastSeen:2025-08-19T14:05:05.185891279Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0]] nodeInfo:map[ID:6fe927e4f99777b8dc152963306a0b79e20dfdcb ListenAddrs:[/ip4/0.0.0.0/tcp/9100] NetworkID:xygle-docker-net-1 PubKey:F+HKxWdOSvWYRnZICO7Eg45Q32i8/ZL/Yp73w0Kg34s= StartTime:2025-08-19T14:04:36.225226925Z State:2 Type:validator Version:1.0.0] stateRoot:vGtCyyBj3tAGYdXzEEwi5D3hAODdew4TB6gax1wde/k= totalPeers:19 validatorNodes:[validator2:9100 validator3:9100 validator4:9100 validator5:9100]]
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getAccountState = 38.5047ms
-METRIC: 2025/08/21 13:48:49 Account state: map[address:0x64366531643963346262613039383339393163653864336662386430333435303039363534333837 balance:31782 created_at:1.755672486e+09 is_active:true nonce:0 state_proof:map[account_hash:0x370fe9bce7364cab684c73e555e35a921a3b1b88bbeec9cf5c77c5501c7d05ce merkle_proof:[0x0000000000000000208d0b9d5367b1b1b27c787ceb83c022e7b9f20321f0f867f6b7132a2737831f4300000000002092722650567e307e6dfe3ffb8563db56c9e1ead19c0130f21e897ed2e4a3f23000000000000000000000000000000000000000000000 0x02004f040306060503010604030906030304060206020601030003090308030303090309030106030605030806040303060606020308060403000303030403050300030003090306030503040303030803070000003c0a286436653164396334626261303938333939316365386433666238643033343530303936353433383718a6f801300138a6df95c50640a2f49ac506] proof_timestamp:1.755764328e+09 state_root:0x64656661756c742d73746174652d726f6f74] trie_info:map[path_length:80 proof_length:2 verification_id:0xbc6b42cb2063ded0] type:USER updated_at:1.75575709e+09 version:0]
-METRIC: 2025/08/21 13:48:49 Latency for xygle_getAccountState = 39.4532ms
-METRIC: 2025/08/21 13:48:49 Latency for xygle_transferFund = 42.8038ms
-METRIC: 2025/08/21 13:48:49 Transaction 1 submitted successfully (nonce=129): txID=38520aeeec13c1a06f5a9f81261b7f93ac2ec48444a9c0f9755277ee7952fd6e
-METRIC: 2025/08/21 13:48:49 Latency for xygle_transferFund = 44.859ms
-METRIC: 2025/08/21 13:48:49 Transaction 2 submitted successfully (nonce=130): txID=f21dd313cb27c532a6e8250dab4e2471e001d60c2c5a35cefe0999edd4ea8d0d
-METRIC: 2025/08/21 13:48:49 Batch TPS = 22.44 (submitted 2 txs in 0.09s)
-METRIC: 2025/08/21 13:48:49 Total Finality (sum of all txs) = 132.5156ms
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getTransaction = 78.6054ms
-METRIC: 2025/08/21 13:53:49 txDetail: {TransactionID: Status:}
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getBalance = 51.0734ms
-METRIC: 2025/08/21 13:53:49 Balance: map[address:38fa5e14098da08f0f241df3539cc6ee3a6f29d3 balance:100140]
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getAllTransactions = 41.5181ms
-METRIC: 2025/08/21 13:53:49 fetched all transcations total =145 page=1
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getAccountTransactions = 40.2334ms
-METRIC: 2025/08/21 13:53:49 Account Transactions: map[has_more:true items:[map[ExecutedBy:<nil> ExecutionTime:1970-01-01T00:00:00Z ValidatorTx:map[LightLeaderProof:map[ProofData:<nil> Signature:hhNqyuTfiPujmNu4hKZYbtjo5P1sJ+2xsqlRWt7hdJ/w3AwiTCr80NYvTrfGg+SL9uGhIJYECPW/LcVioLTWAg== TransactionID:/Wt1F8h5nHjM6LCKdmwwemYYoIMLWy8PCEzeCCCX34s=] SignedTx:map[Base:map[Data:<nil> Fees:map[GasLimit:0] Nonce:93 ReceiverAddress:MzQxODczNDZhYTg2YzU3MjBhNGQ3YjQ3N2U2MDA2MGE4ZmFkZWIxNA== SenderAddress:NmZlOTI3ZTRmOTk3NzdiOGRjMTUyOTYzMzA2YTBiNzllMjBkZmRjYg== Timestamp:2025-08-21T06:21:48.662396876Z TransferData:<nil> TxType:1 Value:10 Version:1] PublicKey:F+HKxWdOSvWYRnZICO7Eg45Q32i8/ZL/Yp73w0Kg34s= Signature:hhNqyuTfiPujmNu4hKZYbtjo5P1sJ+2xsqlRWt7hdJ/w3AwiTCr80NYvTrfGg+SL9uGhIJYECPW/LcVioLTWAg== SignatureScheme:ed25519 TransactionID:/Wt1F8h5nHjM6LCKdmwwemYYoIMLWy8PCEzeCCCX34s=] ValidatorProof:<nil>]]] page:1 page_size:1 total:130]
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getStats = 38.1454ms
-METRIC: 2025/08/21 13:53:49 Node Stats: map[lightNodes:<nil> neighbours:[map[Addresses:[172.20.0.23:56816] Attributes:map[] Connected:2025-08-19T14:05:05.72424707Z Direction:1 ID:46be714bb1393a662a1bc44931d059e3747a1cb2 LastSeen:2025-08-19T14:05:05.72424707Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.5:40690] Attributes:map[] Connected:2025-08-19T14:05:02.480530465Z Direction:1 ID:aef3c247301a37f22d6d3e2070b248e9ad9484f6 LastSeen:2025-08-19T14:05:02.480530465Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.6:56762] Attributes:map[] Connected:2025-08-19T14:05:02.722998458Z Direction:1 ID:2a5d600f866380d2e34c47c8dcfd37f2493f19cc LastSeen:2025-08-19T14:05:02.722998458Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.7:43484] Attributes:map[] Connected:2025-08-19T14:05:03.055026821Z Direction:1 ID:57faa3141e4b4454a3590ac02f5fce422004c65a LastSeen:2025-08-19T14:05:03.055026821Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.13:42478] Attributes:map[] Connected:2025-08-19T14:05:03.928500432Z Direction:1 ID:db7e18ca75857f6a869e21b2f566d3ee54f9b704 LastSeen:2025-08-19T14:05:03.928500432Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.18:40308] Attributes:map[] Connected:2025-08-19T14:05:04.73690852Z Direction:1 ID:af499cab621cd535456468683997eb5e1ea8b06a LastSeen:2025-08-19T14:05:04.73690852Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.19:42768] Attributes:map[] Connected:2025-08-19T14:05:04.966405411Z Direction:1 ID:c304dcc153736df3bb595923b2a5c5e320fbadc9 LastSeen:2025-08-19T14:05:04.966405411Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.20:41084] Attributes:map[] Connected:2025-08-19T14:05:05.185891279Z Direction:1 ID:9229de7017bb1ee6190e9ddaeb95ad43ccff97da LastSeen:2025-08-19T14:05:05.185891279Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.24:52954] Attributes:map[] Connected:2025-08-19T14:05:07.000946852Z Direction:1 ID:38fa5e14098da08f0f241df3539cc6ee3a6f29d3 LastSeen:2025-08-19T14:05:07.000946852Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.4:53440] Attributes:map[] Connected:2025-08-19T14:05:01.669328957Z Direction:1 ID:215d4165ceb24037b5ca362abb1a6e6175aac0e8 LastSeen:2025-08-19T14:05:01.669328957Z Latency:0 Protocols:[xygle] Type:validator UserAgent:Xygle/1.0] map[Addresses:[172.20.0.15:51496] Attributes:map[] Connected:2025-08-19T14:05:04.316542729Z Direction:1 ID:14ddaeec0bde31315db268f2bdb274468ce4aaae LastSeen:2025-08-19T14:05:04.316542729Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.21:58944] Attributes:map[] Connected:2025-08-19T14:05:05.497321361Z Direction:1 ID:801a130f5a56bb4df52c4a354aa84941ee3eb4e2 LastSeen:2025-08-19T14:05:05.497321361Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.3:43356] Attributes:map[] Connected:2025-08-19T14:05:01.187296019Z Direction:1 ID:7df8a751d6fd9bd7fa2e42a72a7b5b91723b4e13 LastSeen:2025-08-19T14:05:01.187296019Z Latency:0 Protocols:[xygle] Type:validator UserAgent:Xygle/1.0] map[Addresses:[172.20.0.14:34054] Attributes:map[] Connected:2025-08-19T14:05:01.2828006Z Direction:1 ID:34187346aa86c5720a4d7b477e60060a8fadeb14 LastSeen:2025-08-19T14:05:01.2828006Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.9:45836] Attributes:map[] Connected:2025-08-19T14:05:03.319482427Z Direction:1 ID:9371cbd1ffe7ef227ef2820bf39f822a7535b0ef LastSeen:2025-08-19T14:05:03.319482427Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.11:56346] Attributes:map[] Connected:2025-08-19T14:05:03.533110504Z Direction:1 ID:b15c3e432a53dfe0f1ccbcca05cb6221e01030d4 LastSeen:2025-08-19T14:05:03.533110504Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.12:57290] Attributes:map[] Connected:2025-08-19T14:05:03.696522648Z Direction:1 ID:9bb81cf351bb9db473e2017723e49c1ae444c644 LastSeen:2025-08-19T14:05:03.696522648Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.17:51984] Attributes:map[] Connected:2025-08-19T14:05:04.58626125Z Direction:1 ID:41657846e9af50a06bb11cbbfe332ab5bb97ab8a LastSeen:2025-08-19T14:05:04.58626125Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0] map[Addresses:[172.20.0.22:51036] Attributes:map[] Connected:2025-08-19T14:05:05.53632132Z Direction:1 ID:5e95f89b80724924e4bf3eb82c8f5c4ea950465b LastSeen:2025-08-19T14:05:05.53632132Z Latency:0 Protocols:[xygle] Type:light UserAgent:Xygle/1.0]] nodeInfo:map[ID:6fe927e4f99777b8dc152963306a0b79e20dfdcb ListenAddrs:[/ip4/0.0.0.0/tcp/9100] NetworkID:xygle-docker-net-1 PubKey:F+HKxWdOSvWYRnZICO7Eg45Q32i8/ZL/Yp73w0Kg34s= StartTime:2025-08-19T14:04:36.225226925Z State:2 Type:validator Version:1.0.0] stateRoot:RuRRsbUP2EW2vRS6FQVrjcPG123SnUVWVHvLi+OJU80= totalPeers:19 validatorNodes:[validator2:9100 validator3:9100 validator4:9100 validator5:9100]]
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getAccountState = 38.4997ms
-METRIC: 2025/08/21 13:53:49 Account state: map[address:0x64366531643963346262613039383339393163653864336662386430333435303039363534333837 balance:31782 created_at:1.755672486e+09 is_active:true nonce:0 state_proof:map[account_hash:0x370fe9bce7364cab684c73e555e35a921a3b1b88bbeec9cf5c77c5501c7d05ce merkle_proof:[0x0000000000000000201b1d5b315293f870de9ab6cc113838830d4928203c2a45a1ead3734d6baf96e100000000002092722650567e307e6dfe3ffb8563db56c9e1ead19c0130f21e897ed2e4a3f23000000000000000000000000000000000000000000000 0x02004f040306060503010604030906030304060206020601030003090308030303090309030106030605030806040303060606020308060403000303030403050300030003090306030503040303030803070000003c0a286436653164396334626261303938333939316365386433666238643033343530303936353433383718a6f801300138a6df95c50640a2f49ac506] proof_timestamp:1.755764628e+09 state_root:0x64656661756c742d73746174652d726f6f74] trie_info:map[path_length:80 proof_length:2 verification_id:0x46e451b1b50fd845] type:USER updated_at:1.75575709e+09 version:0]
-METRIC: 2025/08/21 13:53:49 Latency for xygle_getAccountState = 38.9207ms
-METRIC: 2025/08/21 13:53:49 Latency for xygle_transferFund = 41.4867ms
-METRIC: 2025/08/21 13:53:49 Transaction 1 submitted successfully (nonce=131): txID=33c07c1b26a87109b79fbb1e3f0043d310d52235cadddc793756d39f88bb16af
-METRIC: 2025/08/21 13:53:49 Latency for xygle_transferFund = 41.1291ms
-METRIC: 2025/08/21 13:53:49 Transaction 2 submitted successfully (nonce=132): txID=5e6e89e55486a35a0a86910f501ecde141d5011779a2484be1741f3b9b043e81
-METRIC: 2025/08/21 13:53:49 Latency for xygle_transferFund = 40.1988ms
-METRIC: 2025/08/21 13:53:49 Transaction 3 submitted successfully (nonce=133): txID=92078669e67e82a5964e9a5c3bfd4c004d388c400dd073e4088569f3adc33926
-METRIC: 2025/08/21 13:53:49 Latency for xygle_transferFund = 40.5199ms
-METRIC: 2025/08/21 13:53:49 Transaction 4 submitted successfully (nonce=134): txID=6d6b2877b6df4f3fa066c071559312ac4efa69e825b9aaa3e7e2410efb3e7690
-METRIC: 2025/08/21 13:53:49 Latency for xygle_transferFund = 41.0319ms
-METRIC: 2025/08/21 13:53:49 Transaction 5 submitted successfully (nonce=135): txID=cf1557f87b05371931bfa84d6575967569738cc167e26acd8901769572449c6e
-METRIC: 2025/08/21 13:53:49 Batch TPS = 24.18 (submitted 5 txs in 0.21s)
-METRIC: 2025/08/21 13:53:49 Total Finality (sum of all txs) = 622.6245ms
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 86.0215ms
+METRIC: 2025/09/02 18:01:43 txDetail: {ID:2b3210cc4c19d169765ddf3d4a01472356dc0263bf926ab2df8f309e27091e4a TransactionID: Sender:0x36666539323765346639393737376238646331353239363333303661306237396532306466646362 Receiver:0x37646638613735316436666439626437666132653432613732613762356239313732336234653133 Value:10 Nonce:88 Timestamp:1755757277 ExecutionStatus:SUCCESS ExecutionResult:0x5472616e736665727265642031302066726f6d203666653932376534663939373737623864633135323936333330366130623739653230646664636220746f2037646638613735316436666439626437666132653432613732613762356239313732336234653133 ExecutionTimestamp:1755757277 IsFinal:true}
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getAccountState = 41.2851ms
+METRIC: 2025/09/02 18:01:43 Starting sequential execution of 10 transactions with 1 workers
+METRIC: 2025/09/02 18:01:43 Allocated nonce 351
+METRIC: 2025/09/02 18:01:43 Processing transaction 1 with nonce 351
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 47.6834ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 352
+METRIC: 2025/09/02 18:01:43 Processing transaction 2 with nonce 352
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 44.0097ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 353
+METRIC: 2025/09/02 18:01:43 Processing transaction 3 with nonce 353
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 45.1907ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 354
+METRIC: 2025/09/02 18:01:43 Processing transaction 4 with nonce 354
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 45.8205ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 355
+METRIC: 2025/09/02 18:01:43 Processing transaction 5 with nonce 355
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 44.7022ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 356
+METRIC: 2025/09/02 18:01:43 Processing transaction 6 with nonce 356
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 45.2893ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 357
+METRIC: 2025/09/02 18:01:43 Processing transaction 7 with nonce 357
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 44.5611ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 358
+METRIC: 2025/09/02 18:01:43 Processing transaction 8 with nonce 358
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 44.4926ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 359
+METRIC: 2025/09/02 18:01:43 Processing transaction 9 with nonce 359
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 44.0899ms
+METRIC: 2025/09/02 18:01:43 Allocated nonce 360
+METRIC: 2025/09/02 18:01:43 Processing transaction 10 with nonce 360
+METRIC: 2025/09/02 18:01:43 Latency for xygle_transferFund = 43.2449ms
+METRIC: 2025/09/02 18:01:43 Transaction 1 submitted successfully (nonce=351, txID=aa47728f31d340d614f01f2362d7e3c492d7d91d4ae5161ecb62a89228d848c8, latency=0.048s)
+METRIC: 2025/09/02 18:01:43 Transaction 2 submitted successfully (nonce=352, txID=0cda49ecdc3af3210924452a3614d08e3083b0385ab0fc307bd2f54f4a7ab97e, latency=0.044s)
+METRIC: 2025/09/02 18:01:43 Transaction 3 submitted successfully (nonce=353, txID=bb26e9121c41f7acaf465b83c79db18c1b9e7c67165fbbbfd33c1ac2dcc8203d, latency=0.045s)
+METRIC: 2025/09/02 18:01:43 Transaction 4 submitted successfully (nonce=354, txID=f45d24108df44a899e6a89b83c08d7e15ba1b3130bafc5187f299fc0a4d0443f, latency=0.046s)
+METRIC: 2025/09/02 18:01:43 Transaction 5 submitted successfully (nonce=355, txID=cd9b73a734397090ad860acef57af95d7b820db166e61b5ddf914d7976f8dafd, latency=0.045s)
+METRIC: 2025/09/02 18:01:43 Transaction 6 submitted successfully (nonce=356, txID=8917f91c7dd6556fadaae14dd29c295b541a96b4b2aa78c3c40f571e2a2fd94b, latency=0.046s)
+METRIC: 2025/09/02 18:01:43 Transaction 7 submitted successfully (nonce=357, txID=e4898c6779a8a50904c2b518dc0b8b880d75e741883509d22f5e0e5416ee6131, latency=0.045s)
+METRIC: 2025/09/02 18:01:43 Transaction 8 submitted successfully (nonce=358, txID=7364027a623406fc67e4eed9b0822bf9c35fb70f46980f296ce94929dadb48d6, latency=0.044s)
+METRIC: 2025/09/02 18:01:43 Transaction 9 submitted successfully (nonce=359, txID=2fc2ede77af8e3df6281d76591016c0d1d41f1d92e2b5213815eebf3b95a411b, latency=0.044s)
+METRIC: 2025/09/02 18:01:43 Transaction 10 submitted successfully (nonce=360, txID=10b03473a030a32342afc089e568d873a9ef2d67327685c8fd4402858ab9df0a, latency=0.043s)
+METRIC: 2025/09/02 18:01:43 Submission phase completed: 10 successful, 0 failed
+METRIC: 2025/09/02 18:01:43 Waiting for transaction completion...
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 43.7251ms
+METRIC: 2025/09/02 18:01:43 Tx aa47728f31d340d614f01f2362d7e3c492d7d91d4ae5161ecb62a89228d848c8 executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx aa47728f31d340d614f01f2362d7e3c492d7d91d4ae5161ecb62a89228d848c8 is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 41.1346ms
+METRIC: 2025/09/02 18:01:43 Tx 0cda49ecdc3af3210924452a3614d08e3083b0385ab0fc307bd2f54f4a7ab97e executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx 0cda49ecdc3af3210924452a3614d08e3083b0385ab0fc307bd2f54f4a7ab97e is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 45.4301ms
+METRIC: 2025/09/02 18:01:43 Tx 2fc2ede77af8e3df6281d76591016c0d1d41f1d92e2b5213815eebf3b95a411b executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx 2fc2ede77af8e3df6281d76591016c0d1d41f1d92e2b5213815eebf3b95a411b is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 40.9659ms
+METRIC: 2025/09/02 18:01:43 Tx 10b03473a030a32342afc089e568d873a9ef2d67327685c8fd4402858ab9df0a executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx 10b03473a030a32342afc089e568d873a9ef2d67327685c8fd4402858ab9df0a is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 41.2396ms
+METRIC: 2025/09/02 18:01:43 Tx bb26e9121c41f7acaf465b83c79db18c1b9e7c67165fbbbfd33c1ac2dcc8203d executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx bb26e9121c41f7acaf465b83c79db18c1b9e7c67165fbbbfd33c1ac2dcc8203d is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 40.8714ms
+METRIC: 2025/09/02 18:01:43 Tx f45d24108df44a899e6a89b83c08d7e15ba1b3130bafc5187f299fc0a4d0443f executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx f45d24108df44a899e6a89b83c08d7e15ba1b3130bafc5187f299fc0a4d0443f is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 40.9754ms
+METRIC: 2025/09/02 18:01:43 Tx cd9b73a734397090ad860acef57af95d7b820db166e61b5ddf914d7976f8dafd executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx cd9b73a734397090ad860acef57af95d7b820db166e61b5ddf914d7976f8dafd is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 41.3863ms
+METRIC: 2025/09/02 18:01:43 Tx 8917f91c7dd6556fadaae14dd29c295b541a96b4b2aa78c3c40f571e2a2fd94b executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx 8917f91c7dd6556fadaae14dd29c295b541a96b4b2aa78c3c40f571e2a2fd94b is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 41.1833ms
+METRIC: 2025/09/02 18:01:43 Tx e4898c6779a8a50904c2b518dc0b8b880d75e741883509d22f5e0e5416ee6131 executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx e4898c6779a8a50904c2b518dc0b8b880d75e741883509d22f5e0e5416ee6131 is final =true)
+METRIC: 2025/09/02 18:01:43 Latency for xygle_getTransaction = 42.3714ms
+METRIC: 2025/09/02 18:01:43 Tx 7364027a623406fc67e4eed9b0822bf9c35fb70f46980f296ce94929dadb48d6 executed (status=SUCCESS)
+METRIC: 2025/09/02 18:01:43 Tx 7364027a623406fc67e4eed9b0822bf9c35fb70f46980f296ce94929dadb48d6 is final =true)
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 41.9783ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 40.8975ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 41.6496ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 42.0016ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 42.3328ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 41.2063ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 48.3803ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 40.9893ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 41.0244ms
+METRIC: 2025/09/02 18:01:44 Latency for xygle_getTransaction = 41.0607ms
+METRIC: 2025/09/02 18:01:45 Execution phase completed: Executed=10, Finalized=10
+METRIC: 2025/09/02 18:01:45 Tx 2fc2ede77af8e3df6281d76591016c0d1d41f1d92e2b5213815eebf3b95a411b latency=0.13s
+METRIC: 2025/09/02 18:01:45 Tx aa47728f31d340d614f01f2362d7e3c492d7d91d4ae5161ecb62a89228d848c8 latency=0.40s
+METRIC: 2025/09/02 18:01:45 Tx 0cda49ecdc3af3210924452a3614d08e3083b0385ab0fc307bd2f54f4a7ab97e latency=0.40s
+METRIC: 2025/09/02 18:01:45 Tx 7364027a623406fc67e4eed9b0822bf9c35fb70f46980f296ce94929dadb48d6 latency=0.46s
+METRIC: 2025/09/02 18:01:45 Tx bb26e9121c41f7acaf465b83c79db18c1b9e7c67165fbbbfd33c1ac2dcc8203d latency=0.48s
+METRIC: 2025/09/02 18:01:45 Tx f45d24108df44a899e6a89b83c08d7e15ba1b3130bafc5187f299fc0a4d0443f latency=0.47s
+METRIC: 2025/09/02 18:01:45 Tx cd9b73a734397090ad860acef57af95d7b820db166e61b5ddf914d7976f8dafd latency=0.47s
+METRIC: 2025/09/02 18:01:45 Tx 8917f91c7dd6556fadaae14dd29c295b541a96b4b2aa78c3c40f571e2a2fd94b latency=0.47s
+METRIC: 2025/09/02 18:01:45 Tx e4898c6779a8a50904c2b518dc0b8b880d75e741883509d22f5e0e5416ee6131 latency=0.46s
+METRIC: 2025/09/02 18:01:45 Tx 10b03473a030a32342afc089e568d873a9ef2d67327685c8fd4402858ab9df0a latency=0.13s
+METRIC: 2025/09/02 18:01:45 Tx bb26e9121c41f7acaf465b83c79db18c1b9e7c67165fbbbfd33c1ac2dcc8203d time_to_final=0.48s
+METRIC: 2025/09/02 18:01:45 Tx f45d24108df44a899e6a89b83c08d7e15ba1b3130bafc5187f299fc0a4d0443f time_to_final=0.47s
+METRIC: 2025/09/02 18:01:45 Tx cd9b73a734397090ad860acef57af95d7b820db166e61b5ddf914d7976f8dafd time_to_final=0.47s
+METRIC: 2025/09/02 18:01:45 Tx e4898c6779a8a50904c2b518dc0b8b880d75e741883509d22f5e0e5416ee6131 time_to_final=0.46s
+METRIC: 2025/09/02 18:01:45 Tx 7364027a623406fc67e4eed9b0822bf9c35fb70f46980f296ce94929dadb48d6 time_to_final=0.46s
+METRIC: 2025/09/02 18:01:45 Tx aa47728f31d340d614f01f2362d7e3c492d7d91d4ae5161ecb62a89228d848c8 time_to_final=0.40s
+METRIC: 2025/09/02 18:01:45 Tx 0cda49ecdc3af3210924452a3614d08e3083b0385ab0fc307bd2f54f4a7ab97e time_to_final=0.40s
+METRIC: 2025/09/02 18:01:45 Tx 2fc2ede77af8e3df6281d76591016c0d1d41f1d92e2b5213815eebf3b95a411b time_to_final=0.13s
+METRIC: 2025/09/02 18:01:45 Tx 10b03473a030a32342afc089e568d873a9ef2d67327685c8fd4402858ab9df0a time_to_final=0.13s
+METRIC: 2025/09/02 18:01:45 Tx 8917f91c7dd6556fadaae14dd29c295b541a96b4b2aa78c3c40f571e2a2fd94b time_to_final=0.47s
+METRIC: 2025/09/02 18:01:45 PERFORMANCE SUMMARY
+METRIC: 2025/09/02 18:01:45 Total submitted: 10, Successful: 10, Failed: 0
+METRIC: 2025/09/02 18:01:45 Executed: 10, Finalized: 10
+METRIC: 2025/09/02 18:01:45 Average latency: 0.39s over 10 executed txs
+METRIC: 2025/09/02 18:01:45 Average time-to-finality: 0.39s over 10 finalized txs
+METRIC: 2025/09/02 18:01:45 Estimated TPS: 10.00

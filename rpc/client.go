@@ -7,9 +7,7 @@ import (
 	"io"
 	"net/http"
 	"time"
-
-	"metrics/logger"
-	"metrics/metrics"
+    "metrics/logger"
 	"metrics/models"
 )
 
@@ -23,8 +21,6 @@ func SendRequestToRPC(url string, req model.RequestToRPC) (model.ResponseFromRPC
 
 	start := time.Now()
 	resp, err := http.Post(url, "application/json", bytes.NewBuffer(body))
-	latency := time.Since(start)
-	metrics.LogLatency(req.Method, latency)
 
 	if err != nil {
 		err = fmt.Errorf("failed to send request to %s: %v", url, err)
@@ -64,5 +60,14 @@ func SendRequestToRPC(url string, req model.RequestToRPC) (model.ResponseFromRPC
 		return rpcResp, err
 	}
 
+	// Log latency only for successful attempts
+	latency := time.Since(start)
+	LogLatency(req.Method, latency)
+
 	return rpcResp, nil
+}
+
+// LogLatency logs latency for an RPC call
+func LogLatency(method string, duration time.Duration) {
+	logger.Metrics.Printf("Latency for %s = %v", method, duration)
 }
